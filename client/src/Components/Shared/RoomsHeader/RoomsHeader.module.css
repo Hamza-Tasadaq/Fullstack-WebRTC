@@ -1,0 +1,55 @@
+.roomHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.roomLeft {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.heading::after {
+  content: "";
+  height: 4px;
+  width: 70%;
+  background-color: #0077ff;
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+}
+.searchBox {
+  background: #262626;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.searchInput {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.addToRoom {
+  background-color: #20bd5f;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3 ease-in-out;
+}
+.addRoomImg {
+  margin-right: 10px;
+}
+.addToRoom:hover {
+  background: #1ca754;
+}

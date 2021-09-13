@@ -1,0 +1,28 @@
+.paraWrapper {
+  margin-top: -20px;
+  width: 100%;
+}
+.img {
+  border-radius: 50%;
+  border: 5px solid #0077ff;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.avatarInput {
+  display: none;
+}
+
+.hyperLink {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #0077ff;
+  opacity: 0.8;
+  cursor: pointer;
+}

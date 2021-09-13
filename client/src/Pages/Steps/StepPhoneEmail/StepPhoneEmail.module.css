@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.tabButton {
+  background: #262626;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.tabButton:hover {
+  background: #0077ff;
+}
+.tabButton:first-child {
+  margin-right: 20px;
+}
+
+.active {
+  background: #0077ff;
+}

@@ -1,0 +1,56 @@
+.roomCard {
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.topic {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+.speakers {
+  display: flex;
+  position: relative;
+  margin-bottom: 15px;
+}
+.singleSpeaker .speakerAvatar {
+  position: initial;
+}
+.singleSpeaker .speakersName {
+  margin-left: 20px;
+}
+.speakerAvatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid green;
+  position: absolute;
+  background: #262626;
+}
+.speakersAvatars img:last-child {
+  top: 15px;
+  left: 15px;
+}
+.speakersName {
+  margin-left: 70px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+.speakersName span {
+  margin-right: 5px;
+}
+.pepolesCount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.totalUser {
+  margin-left: 5px;
+  font-weight: bold;
+}
